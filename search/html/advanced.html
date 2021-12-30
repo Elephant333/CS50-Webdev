@@ -10,19 +10,23 @@
         </div>
         <form action="https://google.com/search" target="_blank" align=left>
             <p>Find pages with...</p>
-            <div>
-                <p>all these words: <input type="text" name="as_q"></p>
+            <div class="row">
+                <p class="col-25">all these words:</p>
+                <input type="text" name="as_q" class="col-75">
             </div>
-            <div>
-                <p>this exact word or phrase: <input type="text" name="as_epq"></p>
+            <div class="row">
+                <p class="col-25">this exact word or phrase:</p>
+                <input type="text" name="as_epq" class="col-75">
             </div>
-            <div>
-                <p>any of these words: <input type="text" name="as_oq"></p>
+            <div class="row">
+                <p class="col-25">any of these words:</p>
+                <input type="text" name="as_oq" class="col-75">
             </div>
-            <div>
-                <p>none of these words: <input type="text" name="as_eq"></p>
+            <div class="row">
+                <p class="col-25">none of these words:</p>
+                <input type="text" name="as_eq" class="col-75">
             </div>
-            <div>
+            <div class="row">
                 <input type="submit" value="Advanced Search" id="advanced_search">
             </div>
         </form>

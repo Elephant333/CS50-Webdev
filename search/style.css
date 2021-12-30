@@ -64,11 +64,43 @@
 #advanced_search {
   background-color: #4885ed;
   color: #fff;
-  border:none;
-  border-radius:3px;
-  padding:7px 10px;
-  position:relative;
-  bottom:7px;
-  font-weight:bold;
+  border: 1px solid #4885ed;
+  border-radius: 3px;
+  padding: 7px 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  float: right;
+  margin-right: 69.69%;
+}
+
+#advanced_search:hover {
+  background-color: skyblue;
+}
+
+.col-25 {
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+  font-size: 14px;
+  color: dimgray;
+}
+
+.col-75 {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+
+.row {
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
   font-family: sans-serif;
 }
